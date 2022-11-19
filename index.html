@@ -8,11 +8,15 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 
-<body>
+
+<body style="background-image: url(./images/woman.jpg);">
     <!-- FORM -->
     <section>
 
         <form>
+            <div class="form-heading">
+                <h1>Stutern Feedback Form</h1>
+            </div>
             <div class="form-control">
                 <label>First name </label>
                 <input type="text">
@@ -42,28 +46,28 @@
 
             <div class="form-control">
                 <label for="occupation"> Select which best describes you</label>
-                <input type="radio" name="occupation" /> <span>Student</span>
-                <input type="radio" name="occupation" /> <span>Working Class</span>
-                <input type="radio" name="occupation" /> <span>Self Employed</span>
+                <input type="radio" name="occupation" /> <span class="occupy">Student</span>
+                <input type="radio" name="occupation" /> <span class="occupy">Working Class</span>
+                <input type="radio" name="occupation" /> <span class="occupy" >Self Employed</span>
 
             </div>
 
             <div class="form-control">
                 <label>Would you recommend Stutern to a friend?</label>
                 <!-- <label> -->
-                <input type="radio" /><span for="yes">Yes</label>
-                    <input type="radio">No</input>
+                <input type="radio" /><span for="yes"  >Yes</label>
+                    <input type="radio"class="no" >No</input>
                     <!-- </label> -->
             </div>
 
             <div class="form-control">
                 <label>What technologies are you now familiar with?</label>
-                <input type="checkbox">Git</input>
-                <input type="checkbox">HTML</input>
-                <input type="checkbox">CSS</input>
-                <input type="checkbox">JavaScript</input>
-                <input type="checkbox">React</input>
-                <input type="checkbox">Python</input>
+                <input type="checkbox" style="margin-bottom: 13px">Git</input> <br>
+                <input type="checkbox" style="margin-bottom: 13px">HTML</input> <br>
+                <input type="checkbox" style="margin-bottom: 13px" >CSS</input><br>
+                <input type="checkbox"  style="margin-bottom: 13px">JavaScript</input> <br>
+                <input type="checkbox" style="margin-bottom: 13px"  >React</input> <br>
+                <input type="checkbox"  style="margin-bottom: 13px">Python</input> <br>
                 <input type="checkbox">TypeScript</input>
             </div>
 
